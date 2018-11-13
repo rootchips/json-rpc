@@ -1,0 +1,26 @@
+{
+    "name": "rootchips/json-rpc",
+    "description": "JsonRPC interface",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roslan Saidi",
+            "email": "roslansaidi@ymail.com"
+        }
+    ],
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "@stable"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+	"autoload": {
+        "psr-4": {
+            "JsonRPC\\": "src/JsonRPC"
+        }
+    }
+}
